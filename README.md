@@ -1,6 +1,5 @@
 # Proiect final pentru cursul de testare manuală ITF
 
-Scopul proiectului final pentru cursul de testare manuală ITF este de a folosi toate cunoștințele acumulate de-a lungul cursului și de a le aplica în practică, folosind o aplicație live.
 
 Aplicație în curs de testare: https://opensource-demo.orangehrmlive.com/
 
