@@ -6,7 +6,7 @@ Aplicație în curs de testare: https://opensource-demo.orangehrmlive.com/
 
 Documentația API: https://orangehrm.github.io/orangehrm-api-doc/
 
-**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/IulianB0/Proiect-Practic-Testare-Manuala/blob/main/README.md#specifica%C8%9Bii-func%C8%9Bionale# 1 Secțiunea de testare) și [SQL secțiune](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#2-sql-section).**
+**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/IulianB0/Proiect-Practic-Testare-Manuala/edit/main/README.md#1-sec%C8%9Biunea-de-testare) și [Secțiunea SQL](https://github.com/IulianB0/Proiect-Practic-Testare-Manuala/edit/main/README.md#2-sec%C8%9Biunea-sql)).**
 
 Instrumente folosite: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 
@@ -99,4 +99,35 @@ Pentru API-ul Dependents, a fost generată următoarea listă de verificare: [AP
 Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testului:
 
 * Mediul de testare este activ și rulează: https://opensource-demo.orangehrmlive.com/
-* Accesul la mediul de testare este dat: Nume utilizator : Admin | Parola: admin
+* Accesul la mediul de testare este dat: Nume utilizator : Admin | Parola: admin123
+* Rezumatul ciclului a fost creat
+* Cazurile de testare au fost adăugate la rezumatul ciclului
+* A fost creată colecția Postman cu metodele API dependente
+* Jetonul de autorizare a fost creat pentru accesarea API-ului
+
+## 1.6 Execuția testului
+
+* Cazurile de testare sunt executate pe rezumatul ciclului de testare creat: [Dependents_cycle_summary_execution.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_cycle_summary_execution.pdf)
+* Bug-urile au fost create pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici: [Dependents_created_bugs.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_created_bugs.pdf)
+     * Formatul datei nu este zz/ll/aaaa
+     * „Data nașterii” viitoare poate fi selectată din calendar
+     * Sunt permise doar 50 de caractere pentru câmpul „Vă rugăm să specificați”.
+     * Numai 50 de caractere sunt permise pentru câmpul „Nume”.
+     * Relația „părinte” lipsește
+* Testele API sunt executate pe baza listei de verificare. Colecția folosită poate fi găsită aici: [Fișier JSON cu colecția de solicitări creată pentru API-ul Dependents](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/OrangeHRM%20API%20-% 20Dependents.postman_collection.json)
+* Testarea completă a regresiei este necesară după ce erorile sunt remediate
+
+## 1.7 Finalizarea testului
+
+* Deoarece criteriile de ieșire au fost îndeplinite și satisfăcute așa cum se menționează în secțiunea corespunzătoare, echipa de testare sugerează această funcție să „Pune live”
+* Matricea de trasabilitate a fost generată și poate fi găsită aici: [Traceability_matrix.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Traceability_matrix.xlsx)
+* A fost generată diagrama de execuție a testelor, raportul final arată că un număr de 5 teste au eșuat din total 23
+* Un număr de 23 de cazuri de testare au fost planificate pentru execuție și toate au fost executate
+* S-au găsit un număr de 5 erori în total, dintre care prioritatea este: 1 este mare, 4 sunt medii și 1 este scăzută
+
+![imagine](https://user-images.githubusercontent.com/99291143/163691281-5ccb211d-c101-40ea-bb64-1a4f65f8e1b1.png)
+
+
+# 2 Secțiunea SQL
+
+A creat o bază de date numită „orangehrm” și un tabel numit „dependenți” cu toate coloanele necesare pentru a salva datele conform specificațiilor. Au efectuat diferite interogări în interiorul fișierului sql: [dependents.sql](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/dependents.sql)
