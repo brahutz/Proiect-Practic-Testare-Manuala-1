@@ -6,7 +6,7 @@ Aplicație în curs de testare: https://opensource-demo.orangehrmlive.com/
 
 Documentația API: https://orangehrm.github.io/orangehrm-api-doc/
 
-**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#1-testing-section) și [SQL secțiune](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#2-sql-section).**
+**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/IulianB0/Proiect-Practic-Testare-Manuala/blob/main/README.md#specifica%C8%9Bii-func%C8%9Bionale).md# 1 Secțiunea de testare) și [SQL secțiune](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/README.md#2-sql-section).**
 
 Instrumente folosite: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 
